@@ -94,11 +94,10 @@ font-weight: 700;
 }
 
 section-description{
+    width: 827px;
     color:  #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-
+    text-align: center;  
+    font-size: 18px; 
 }
 
 .about{
@@ -106,4 +105,18 @@ font-weight: 400;
     border-radius: 10px;
 background: #FFF8F3;
 margin: 130px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center ;
 }
